@@ -10,6 +10,7 @@ feedback_directory = '/data/feedback/'
 # URL with company website (according to the lab):
 company_website_url = 'http://34.16.144.70/feedback/'
 
+
 def read_feedback(file_path):
     """
     Read the content of a feedback file and return a dictionary.
@@ -22,6 +23,7 @@ def read_feedback(file_path):
             'date': lines[2].strip(),
             'feedback': lines[3].strip()
         }
+
 
 def upload_feedback(feedback_data):
     """
