@@ -3,7 +3,6 @@
 import os
 import requests
 
-
 # Folder with txt files:
 feedback_directory = '/data/feedback/'
 
